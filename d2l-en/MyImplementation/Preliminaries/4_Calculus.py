@@ -61,3 +61,6 @@ def plot(X, Y=None, xlabel=None, ylabel=None, legend=[], xlim=None,
 x = np.arange(0, 3, 0.1)
 plot(x, [f(x), 2 * x - 3], 'x', 'f(x)', legend=['f(x)', 'Tangent line (x=1)'])
 plt.show()
+
+# 3. 偏导数和梯度
+print("-"*100)
